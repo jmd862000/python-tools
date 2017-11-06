@@ -30,7 +30,7 @@ def list_addresses(ip:str(),version:int()) -> list():
 
 options = parser.parse_args()
 
-if options.network and options.expand:
+if options.expand:
     for ip in list_addresses(options.network,int(options.version)):
         print(ip)
 else:
