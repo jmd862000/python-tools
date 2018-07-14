@@ -1,3 +1,6 @@
+# Overview #
+Retrieves designated files from source SFTP server(s), (optionally) decrypts, and transfers to specified destinations based on regex match.
+
 # Prerequisites #
 The following items are must be performed prior to executing the script:
 * Install Python3 (any version) including Pip installer
