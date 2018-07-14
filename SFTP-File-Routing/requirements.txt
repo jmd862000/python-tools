@@ -1,0 +1,4 @@
+Cryptography
+Paramiko
+python-gnupg
+pysftp
