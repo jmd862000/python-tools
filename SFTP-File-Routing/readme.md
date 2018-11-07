@@ -1,3 +1,5 @@
+1. [Overview](#overview)
+
 # Overview #
 Retrieves designated files from source SFTP server(s), (optionally) decrypts, and transfers to specified destinations based on regex match.
 
