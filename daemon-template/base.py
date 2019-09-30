@@ -74,8 +74,8 @@ def start_stop(action, pidfile="/var/run/lock/base.pid"):
                 sys.exit(1)
     if 'start' == action:
         if pid:
-            mess = "Start aborded since pid file '%s' exists.\n"
-            sys.stderr.write(mess % pidfile)
+            msg = "Start aborted: File '%s' exists.\n"
+            sys.stderr.write(msg % pidfile)
             sys.exit(1)
         launch_daemon()
         return
